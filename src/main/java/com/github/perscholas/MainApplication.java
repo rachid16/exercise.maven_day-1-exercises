@@ -1,5 +1,6 @@
 package com.github.perscholas;
 
+import java.util.Iterator;
 import java.util.Scanner;
 
 /**
@@ -17,5 +18,7 @@ public class MainApplication {
             System.out.println("The student's class-score was " + studentScoreAsString);
             System.out.println("The student's grade was " + studentGrade);
         } while(true);
+
+
     }
 }
